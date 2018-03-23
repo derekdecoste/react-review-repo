@@ -1,0 +1,35 @@
+{
+  "name": "react-review-repo",
+  "version": "1.0.0",
+  "description": "react review",
+  "main": "index.js",
+  "scripts": {
+    "rest-server": "json-server -w server/db.json",
+    "build": "webpack -w --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsquaredslim/react-review-repo.git"
+  },
+  "author": "D\u001b2\u001b5\u001b3\u001b2\u001b5\u001b3erek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsquaredslim/react-review-repo/issues"
+  },
+  "homepage": "https://github.com/dsquaredslim/react-review-repo#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "json-server": "^0.12.1",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13"
+  },
+  "dependencies": {
+    "ajv": "^6.3.0",
+    "axios": "^0.18.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
